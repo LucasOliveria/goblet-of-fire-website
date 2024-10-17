@@ -1,0 +1,76 @@
+.body {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container h1 {
+  color: #fff;
+  font-family: 'Harry Potter', sans-serif;
+  font-size: 4rem;
+}
+
+.form-container img {
+  width: 20rem;
+}
+
+form {
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+input {
+  all: unset;
+  width: 23rem;
+  height: 100%;
+  background-color: #082d46;
+  padding-left: 1rem;
+  border-radius: 0.7rem;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+button {
+  all: unset;
+  text-align: center;
+  height: 100%;
+  width: 8rem;
+  background-color: #303f7e;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.list-container {
+  /* border: 1px solid red; */
+  width: 35.5rem;
+}
+
+.video-fire-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+  .video-fire-home {
+    max-height: 100%;
+  }
+}
