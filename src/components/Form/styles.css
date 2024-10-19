@@ -1,0 +1,68 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  /* background-image: url("../../assets/calice.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center; */
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 10rem;
+  /* border: 1px solid red; */
+}
+
+.title h1 {
+  /*  */
+  color: #fff;
+  font-family: 'Harry Potter', sans-serif;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+.title img {
+  /*  */
+  width: 6rem;
+}
+
+form {
+  height: 5rem;
+  margin: 2rem 0;
+}
+
+input {
+  all: unset;
+  width: 23rem;
+  height: 100%;
+  background-color: #082d46;
+  padding-left: 1rem;
+  border-radius: 0.7rem;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+button {
+  all: unset;
+  text-align: center;
+  height: 100%;
+  width: 8rem;
+  background-color: #303f7e;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+span {
+  color: #ff0000;
+}

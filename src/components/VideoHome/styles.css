@@ -1,0 +1,15 @@
+.video-fire-home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+  .video-fire-home {
+    max-height: 100%;
+  }
+}
